@@ -1,0 +1,34 @@
+{
+    "test_cases": [
+        {
+            "num_levels": 5,
+            "num_teleporters": 6,
+            "teleporters": [
+                {
+                    "from_level": 1,
+                    "to_level": 2
+                },
+                {
+                    "from_level": 1,
+                    "to_level": 3
+                },
+                {
+                    "from_level": 2,
+                    "to_level": 4
+                },
+                {
+                    "from_level": 2,
+                    "to_level": 5
+                },
+                {
+                    "from_level": 3,
+                    "to_level": 1
+                },
+                {
+                    "from_level": 4,
+                    "to_level": 2
+                }
+            ]
+        }
+    ]
+}
