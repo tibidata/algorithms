@@ -34,8 +34,6 @@ def main(**kwargs):
     Raises:
         FileNotFoundError: If the specified path does not lead to a valid JSON file.
 
-    Example:
-        main(path="data/test_cases.json")
     """
     # Load test case data from the specified file path
     for data in load_data(path=kwargs.get("path")):
